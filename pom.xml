@@ -76,6 +76,13 @@
 			<artifactId>logstash-logback-encoder</artifactId>
 			<version>${logstash-logback-encoder.version}</version>
 		</dependency>
+		<distributionManagement>
+  <repository>
+    <id>nexus</id>
+    <url>http://54.90.232.181:8081/repository/maven-releases/</url>
+  </repository>
+</distributionManagement>
+
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
